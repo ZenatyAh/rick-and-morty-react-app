@@ -1,73 +1,47 @@
-# React + TypeScript + Vite
+# 🚀 Technical Task — Rick and Morty React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Please complete the following technical task carefully using this API provider:  
+🔗 **https://rickandmortyapi.com/documentation/**  
+This task is the **primary selection criterion** for joining the bootcamp.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Requirements
 
-## React Compiler
+### 🧩 Characters Page
+- Display a list of characters.
+- Include a search input to allow users to search for characters by name.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔍 Search Functionality
+- Search characters **by name**.
 
-## Expanding the ESLint configuration
+### 👤 Character Details Page
+- Display the **character image**.
+- Show **basic character information**.
+- Display a **list of episodes** where the character appeared.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Implementation Requirements
+- **React + TypeScript**
+- **State management** (any suitable solution)
+- **Clean, scalable project architecture**
+- UI design is **not a priority** — focus on code structure.
+- Project must be **uploaded to GitHub**
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📤 Submit Your Work
+🛑 **Add the GitHub repository link in the field below**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+⬇️  
+⬇️  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📝 Evaluation Criteria
+- ✔ Code quality  
+- ✔ Project structure & component organization  
+- ✔ API handling  
+- ✔ Proper use of **TanStack Query**  
+- ✔ Meeting all requirements  
