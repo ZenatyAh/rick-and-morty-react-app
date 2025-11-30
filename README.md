@@ -31,6 +31,14 @@ This task is the **primary selection criterion** for joining the bootcamp.
 
 ---
 
+## ⏳ Project Status
+This project is **not fully completed yet**.  
+I am actively working on developing the features throughout this week.  
+
+The repository has been submitted **early** to ensure smooth accessibility and to avoid any potential submission issues.
+
+---
+
 ## 📤 Submit Your Work
 🛑 **Add the GitHub repository link in the field below**
 
